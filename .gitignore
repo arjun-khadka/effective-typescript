@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+/bower_components
+
+# Testing/Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Production
+build/
+dist/
+.next/
+out/
+.nuxt/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# Environment
+.env
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Misc
+.npm
+.eslintcache
+.cache
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+
+# OS/Editor
+.DS_Store # macOS
+.vscode-test # VS Code
